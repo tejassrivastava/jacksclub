@@ -31,6 +31,17 @@ Contains Backedn API Implementation
 - This will spin up a DynamoDB Local Instance
 - Once done testing run docker compose -f "docker-compose.yml" down to close & remove the containers.
 
+## Add Env file
+- In root of the directory add a
+
+```bash
+  .env.local
+```
+- Add this into the file
+
+```bash
+   AWS_SDK_LOAD_CONFIG=1
+```
 
 ## Run Locally
 
